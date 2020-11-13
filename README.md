@@ -1,0 +1,2 @@
+# FastApiCrudApp
+Learning FastAPI.

@@ -19,6 +19,7 @@ async def create_users(user: SchemaUser):
         username=user.username,
         email=user.email,
         password=hashed_password,
+        is_active=True,
     )
     db.session.add(User)
     db.session.commit()
